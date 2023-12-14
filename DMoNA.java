@@ -1,7 +1,7 @@
 // Finally awake?
 public class DMoNA
 { // Good.
-  private String[] archive = {"ANJ","EBF","ARM","PRA","AYM","UNJ","ULJ","UGA","EPS","CTO","OVN","ECD"};//make hashmap
+  private String[] archive = {"ANJ","EBF","ARM","PRA","AYM","UNJ","ULJ","UGA","EPS","CTO","OVN","ECD"};//:.com
 
   public DMoNA(String DMoNA)
   { // Almost there
@@ -25,10 +25,7 @@ public class DMoNA
     ANoMD += ", " + (Integer.parseInt(code.substring(14,16)) - 4);
     // Pain
     System.out.println(ANoMD);
-    // Torment
-    // Existence
-    // Death?
-    // God
+    // Death(?)
   }
 }
 // https://github.com/Nadelio/5-4x1-5-4x1-28-4/blob/main/newGame.java // next place?
