@@ -8,21 +8,21 @@ public class DMoNA
     revitalize(DMoNA);
   }
 
-  public void revitalize(String DMoNA)
+  public void revitalize(String code)
   { // Should you continue?
     String ANoMD = "";
     // Why not?
-    if(parseInt.(DMoNA.substring(0,2)) - 5 <= archive.length - 1)
+    if(Integer.parseInt(code.substring(0,2)) - 5 <= archive.length - 1)
     {
-      ANoMD += archive[parseInt(DMoNA.substring(0,2)) - 5];
+      ANoMD += archive[Integer.parseInt(code.substring(0,2)) - 5];
     }
     // Love
-    if(parseInt(DMoNA.substring(7,9)) - 4 <= 31)
+    if(Integer.parseInt(code.substring(7,9)) - 4 <= 31)
     {
-      ANoMD += " " + DMoNA.substring(7,9);
+      ANoMD += " " + code.substring(7,9);
     }
     // Fear
-    ANoMD += ", " + parseInt(DMoNA.substring(14,16));
+    ANoMD += ", " + Integer.parseInt(code.substring(14,16));
     // Pain
     System.out.println(ANoMD);
     // Torment

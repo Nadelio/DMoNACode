@@ -1,4 +1,4 @@
-import DMoNA;
+import java.util.Scanner;
 
 public class runme
 {
