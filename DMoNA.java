@@ -28,4 +28,4 @@ public class DMoNA
     // Death(?)
   }
 }
-// https://github.com/Nadelio/5-4x1-5-4x1-28-4/blob/main/newGame.java // next place?
+// newGame.java // now?
