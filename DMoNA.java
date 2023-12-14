@@ -12,17 +12,17 @@ public class DMoNA
   { // Should you continue?
     String ANoMD = "";
     // Why not?
-    if(DMoNA.substring(0,2)./*to int*/ - 5 <= archive.length - 1)
+    if(parseInt.(DMoNA.substring(0,2)) - 5 <= archive.length - 1)
     {
-      ANoMD += archive[DMoNA.substring(0,2)./*to int*/ - 5];
+      ANoMD += archive[parseInt(DMoNA.substring(0,2)) - 5];
     }
     // Love
-    if(DMoNA.substring(7,9)./*to int*/ - 4 <= 31)
+    if(parseInt(DMoNA.substring(7,9)) - 4 <= 31)
     {
       ANoMD += " " + DMoNA.substring(7,9);
     }
     // Fear
-    ANoMD += ", " + DMoNA.substring(14,16)./* to int*/;
+    ANoMD += ", " + parseInt(DMoNA.substring(14,16));
     // Pain
     System.out.println(ANoMD);
     // Torment
