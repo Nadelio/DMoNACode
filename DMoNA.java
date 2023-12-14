@@ -19,10 +19,10 @@ public class DMoNA
     // Love
     if(Integer.parseInt(code.substring(7,9)) - 4 <= 31)
     {
-      ANoMD += " " + code.substring(7,9);
+      ANoMD += " " + (Integer.parseInt(code.substring(7,9)) - 4);
     }
     // Fear
-    ANoMD += ", " + Integer.parseInt(code.substring(14,16));
+    ANoMD += ", " + (Integer.parseInt(code.substring(14,16)) - 4);
     // Pain
     System.out.println(ANoMD);
     // Torment
